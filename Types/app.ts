@@ -35,5 +35,10 @@ let number4 = 5.8;
 let text: string;
 text = "Vinyas";
 
+// Advantages of Ts
+// Doesn't let the dev to reassign a variable
+// let sampleTxt = "Hello World";
+// sampleTxt = 5.0;
+
 const result = add(number1, number2, printValues, resultPhrase);
 // console.log(result);
