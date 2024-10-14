@@ -28,5 +28,12 @@ const resultPhrase = "The Result is:";
 let number3 = "5.8";
 let number4 = 5.8;
 
+// If you are declaring and intializing then we need to specifiy
+// This doesn't work as we cannot reassign const values
+// const text: string;
+// text = "Hello World";
+let text: string;
+text = "Vinyas";
+
 const result = add(number1, number2, printValues, resultPhrase);
 // console.log(result);
